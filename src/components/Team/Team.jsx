@@ -1,5 +1,6 @@
 import React, { useState, useEffect }  from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
+import TeamItem from './TeamItem';
 import "./team.scss"
 
 // Images
@@ -13,14 +14,23 @@ import personaje07 from '@root/assets/images/team/personaje-07.png';
 import personaje08 from '@root/assets/images/team/personaje-08.png';
 import personaje09 from '@root/assets/images/team/personaje-09.png';
 import personaje10 from '@root/assets/images/team/personaje-10.png';
-import TeamItem from './TeamItem';
+import personaje01Webp from '@root/assets/images/team/personaje-01.webp';
+import personaje02Webp from '@root/assets/images/team/personaje-02.webp';
+import personaje03Webp from '@root/assets/images/team/personaje-03.webp';
+import personaje04Webp from '@root/assets/images/team/personaje-04.webp';
+import personaje05Webp from '@root/assets/images/team/personaje-05.webp';
+import personaje06Webp from '@root/assets/images/team/personaje-06.webp';
+import personaje07Webp from '@root/assets/images/team/personaje-07.webp';
+import personaje08Webp from '@root/assets/images/team/personaje-08.webp';
+import personaje09Webp from '@root/assets/images/team/personaje-09.webp';
+import personaje10Webp from '@root/assets/images/team/personaje-10.webp';
 
 const data = [
     {
         id: 0,
         avatar: {
             png: personaje01,
-            webp: ""
+            webp: personaje01Webp
         },
         prof: "Founders",
         text: "Tim Brdnik Rok Božič"
@@ -29,7 +39,7 @@ const data = [
         id: 1,
         avatar: {
             png: personaje02,
-            webp: ""
+            webp: personaje02Webp
         },
         prof: "Investors",
         text: "Andrej Podgoršek Miran Pikovnik"
@@ -38,7 +48,7 @@ const data = [
         id: 2,
         avatar: {
             png: personaje03,
-            webp: ""
+            webp: personaje03Webp
         },
         prof: "Development",
         text: "Phu Ngu Matic Conradi"
@@ -47,7 +57,7 @@ const data = [
         id: 3,
         avatar: {
             png: personaje04,
-            webp: ""
+            webp: personaje04Webp
         },
         prof: "Design Team",
         text: "TNik Preston Kristian Lara Ponebšek Hugo Skulje Lara Pikovnik Veronika"
@@ -56,7 +66,7 @@ const data = [
         id: 4,
         avatar: {
             png: personaje05,
-            webp: ""
+            webp: personaje05Webp
         },
         prof: "Discord Management",
         text: "Terah Mills Jack"
@@ -65,7 +75,7 @@ const data = [
         id: 5,
         avatar: {
             png: personaje06,
-            webp: ""
+            webp: personaje06Webp
         },
         prof: "Moderation team",
         text: "Anaximillian Luicville Badam Jocey.eth"
@@ -74,7 +84,7 @@ const data = [
         id: 6,
         avatar: {
             png: personaje07,
-            webp: ""
+            webp: personaje07Webp
         },
         prof: "Marketing Team",
         text: "Luc Primožičnik Nik Razoršek Tim Brdnik Rok Božič Maj Vrenko Deaan"
@@ -83,7 +93,7 @@ const data = [
         id: 7,
         avatar: {
             png: personaje08,
-            webp: ""
+            webp: personaje08Webp
         },
         prof: "Website Team",
         text: "QClay Agency Linux Designer "
@@ -92,7 +102,7 @@ const data = [
         id: 8,
         avatar: {
             png: personaje09,
-            webp: ""
+            webp: personaje09Webp
         },
         prof: "AR",
         text: "Rok Popovič Bor (notr.si)"
@@ -101,7 +111,7 @@ const data = [
         id:9,
         avatar: {
             png: personaje10,
-            webp: ""
+            webp: personaje10Webp
         },
         prof: "3D Figures",
         text: "Notr.si Tadej Ancin"

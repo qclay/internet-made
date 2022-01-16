@@ -12,8 +12,8 @@ export default function(){
     return (
         <div className="presentationhat">    
             <Marquee {...settings}>          
-                {Array.from({length: window.innerWidth > 991 ? 3 : 2}).map(() => ( // For big screens         
-                    <React.Fragment>                            
+                {Array.from({length: window.innerWidth > 991 ? 3 : 2}).map((item, id) => ( // For big screens         
+                    <React.Fragment key={id}>                            
                         <div className="presentationhat__item">
                             <span className="limiter"><span>xoxo  nft  xoxo</span> <span>xoxo  nft  xoxo</span></span>
                         </div>             

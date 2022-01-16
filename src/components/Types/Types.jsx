@@ -31,13 +31,12 @@ export default function(){
         if(!refMain || !refRowUp || !refRowDown){ return; }
 
         const step           = 0.5; // You can change this value to set speed you need.
-        const {top, left, width, height}   = refMain.getBoundingClientRect();
+        const {top, height}   = refMain.getBoundingClientRect();
         const elementFromTop = top + (window.pageYOffset || document.documentElement.scrollTop);
         const paddingTop     = window.innerHeight; 
         const startFrom      = elementFromTop - paddingTop;
         const leftValue      = window.innerWidth - refRowUp.getBoundingClientRect().left;
         const initValue      = Math.min(0, ((elementFromTop + height) - startFrom - leftValue) * -step);
-        console.log(leftValue)
 
         setSettings({
             elementFromTop,

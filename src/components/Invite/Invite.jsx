@@ -41,18 +41,6 @@ export default function(){
                                 </PlusButton>
                             </div>
                             <div className="invite__right">
-                                {/* <picture>
-                                    <source srcSet={personaje01Webp} type="image/webp" />
-                                    <img src={personaje01} alt="personaje" className="invite__personaje invite__personaje_1" />
-                                </picture>
-                                <picture>
-                                    <source srcSet={personaje02Webp} type="image/webp" />
-                                    <img src={personaje02} alt="personaje" className="invite__personaje invite__personaje_2" />
-                                </picture>
-                                <picture>
-                                    <source srcSet={personaje03Webp} type="image/webp" />
-                                    <img src={personaje03} alt="personaje" className="invite__personaje invite__personaje_3" />
-                                </picture> */}
                                 <img src={personaje01} alt="personaje" className="invite__personaje invite__personaje_1" />
                                 <img src={personaje02} alt="personaje" className="invite__personaje invite__personaje_2" />
                                 <img src={personaje03} alt="personaje" className="invite__personaje invite__personaje_3" />

@@ -84,8 +84,8 @@ export default function(){
             <div className="avatarsback__container">       
                 <div className="avatarsback__wrapper">
                     <Marquee className="marquee__root" {...settings}>
-                        {Array.from({length: window.innerWidth > 991 ? 2 : 1}).map(() => ( // For big screens
-                            <React.Fragment>
+                        {Array.from({length: window.innerWidth > 991 ? 2 : 1}).map((item, id) => ( // For big screens
+                            <React.Fragment key={id}>
                                 <div className="avatarsback__item">
                                     <picture>
                                         <source srcSet={card3Webp} type="image/webp" />

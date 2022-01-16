@@ -15,8 +15,8 @@ export default function(){
         <div className="presentationfooter">
             <div className="presentationfooter__container" data-scroll-parent>
                 <Marquee {...settings}>
-                    {Array.from({length: window.innerWidth > 991 ? 2 : 1}).map(() => ( // For big screens
-                        <React.Fragment>
+                    {Array.from({length: window.innerWidth > 991 ? 2 : 1}).map((item, id) => ( // For big screens
+                        <React.Fragment key={id}>
                             <div className="presentationfooter__item">
                                 <p className='fashion'>
                                     fashion NFT fashion NFT fashion NFT 
