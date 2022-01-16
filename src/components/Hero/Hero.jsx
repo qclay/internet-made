@@ -30,6 +30,7 @@ import item02Webp from '@root/assets/images/hero/item-02.webp';
 import item03 from '@root/assets/images/hero/item-03.png';
 import item03Webp from '@root/assets/images/hero/item-03.webp';
 import item04 from '@root/assets/images/hero/item-04.png';
+import item04Webp from '@root/assets/images/hero/item-03.webp';
 import internetMade from '@root/assets/images/hero/internet-made.png';
 
 function setClassActive(index, current){
@@ -135,7 +136,7 @@ export default function(){
                     </div>
                     <div className="hero__center">                        
                         <Swiper className="hero__swiper" {...settings}>
-                            <SwiperSlide data-image-src="/assets/images/hero/item-01">
+                            <SwiperSlide>
                                 <div className="hero__slider-item">
                                     <picture>
                                         <source srcSet={item01Webp} type="image/webp" />                                        
@@ -143,7 +144,7 @@ export default function(){
                                     </picture>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide data-image-src="/assets/images/hero/item-02">
+                            <SwiperSlide>
                                 <div className="hero__slider-item">
                                     <picture>
                                         <source srcSet={item02Webp} type="image/webp" />                                        
@@ -151,7 +152,7 @@ export default function(){
                                     </picture>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide data-image-src="/assets/images/hero/item-03">
+                            <SwiperSlide>
                                 <div className="hero__slider-item">
                                     <picture>
                                         <source srcSet={item03Webp} type="image/webp" />                                        
@@ -159,10 +160,10 @@ export default function(){
                                     </picture>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide data-image-src="/assets/images/hero/item-04">
+                            <SwiperSlide>
                                 <div className="hero__slider-item">
                                     <picture>
-                                        {/* <source srcSet={item04Webp} type="image/webp" />                                         */}
+                                        <source srcSet={item04Webp} type="image/webp" />                                        
                                         <img src={item04} alt="item" />
                                     </picture>
                                 </div>
