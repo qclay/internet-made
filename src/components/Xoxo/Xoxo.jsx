@@ -45,7 +45,7 @@ export default function(){
                                     sed tellus massa. 
                                 </p>
                                 <h2>
-                                    <span>XOXO NFT</span> <span>INTERNET MADE</span>
+                                    <span>NFT NFT NFT</span> <span>INTERNET MADE</span>
                                 </h2>
                             </div>
                         </div>
@@ -68,16 +68,22 @@ export default function(){
                             <span>Internet made nft xoxo</span>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Non id vestibulum, fames etiam. Pellentesque enim vitae leo 
-                            faucibus eu. Dolor elit ac massa tempor, sed tellus massa. 
+                            Internet Made is an artificial fashion atelier connecting 
+                            past fashion references with a new digital narrative, 
+                            playing with clothing the way we can’t in real life. 
+                            It’s a reflection of the digital Mise-en-scène we grew up with. 
+                            It’s bigger than a room. It’s a digital movement.
                         </p>
                     </div>
                     <div className="xoxo__right">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non id vestibulum, fames etiam. 
-                            Pellentesque enim vitae leo faucibus eu. Dolor elit ac massa tempor, sed tellus massa. 
-                            Ut in at ornare volutpat mauris suspendisse non sed consequat. Felis laoreet.
+                            Playing with clothing the way we can’t in real life. 
+                            Internet Made - Playing with reality and connecting past 
+                            fashion references with a new digital narrative.
+                            <br/>
+                            <br/>
+                            <br/>
+                            We are a virtual wearables company. 
                         </p>
                     </div>
                 </div>

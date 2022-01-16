@@ -2,7 +2,7 @@
 
 .avatars{
     padding-top: 170px;
-    padding-bottom: 350px;
+    padding-bottom: 262px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -17,16 +17,16 @@
 
     @media (max-width: 991px){
         padding-top: 130px;
-        padding-bottom: 300px;
+        padding-bottom: 225px;
     }
 
     @media (max-width: 768px){
-        padding-bottom: 250px;
+        padding-bottom: 187.5px;
     }
 
     @media (max-width: 656px){
         flex-direction: column;
-        padding-bottom: 200px;
+        padding-bottom: 150px;
     }
     @media (max-width: 565px){
         padding-top: 78px;
@@ -188,7 +188,7 @@
     @media (max-width: 991px){
         padding: 30px 34px;
     }
-    @media (max-width: 656px){
+    @media (max-width: 991px){
         background-image: url(@root/assets/images/avatars/background-text@mobile.png);        
     }
 }

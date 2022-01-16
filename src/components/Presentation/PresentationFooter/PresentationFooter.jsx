@@ -30,10 +30,11 @@ export default function(){
                             </div>
                             <div className="presentationfooter__item">
                                 <p className="text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                    Non id vestibulum, fames etiam. Pellentesque enim vitae 
-                                    leo faucibus eu. Dolor elit ac massa tempor, sed tellus massa.
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    F&amp;F (Friends &amp; Family) will have 1 free mint.
+                                    1 qualified Internet Made NFT gives 2 reserved opportunities 
+                                    to buy into the 48 hr pre-sale. To access members-only areas 
+                                    such as dressing room, Internet Made will need to be signed 
+                                    into their Metamask Wallet.
                                 </p>
                             </div>
                         </React.Fragment>

@@ -8,7 +8,7 @@ export default function(){
         <div className="presentation">
             <PresentationHat />
             <div className="presentation__date">
-                <span>11.13.22</span>
+                <span>26.1.22</span>
             </div>
             <PresentationFooter />
         </div>

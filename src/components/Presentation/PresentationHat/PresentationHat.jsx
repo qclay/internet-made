@@ -15,7 +15,7 @@ export default function(){
                 {Array.from({length: window.innerWidth > 991 ? 3 : 2}).map((item, id) => ( // For big screens         
                     <React.Fragment key={id}>                            
                         <div className="presentationhat__item">
-                            <span className="limiter"><span>xoxo  nft  xoxo</span> <span>xoxo  nft  xoxo</span></span>
+                            <span className="limiter"><span>Friends &amp;</span><span>Family Drop</span></span>
                         </div>             
                         <div className="presentationhat__item">
                             <span className="big">presale date</span>

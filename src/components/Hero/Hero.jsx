@@ -30,7 +30,7 @@ import item02Webp from '@root/assets/images/hero/item-02.webp';
 import item03 from '@root/assets/images/hero/item-03.png';
 import item03Webp from '@root/assets/images/hero/item-03.webp';
 import item04 from '@root/assets/images/hero/item-04.png';
-import item04Webp from '@root/assets/images/hero/item-03.webp';
+import item04Webp from '@root/assets/images/hero/item-04.webp';
 import internetMade from '@root/assets/images/hero/internet-made.png';
 
 function setClassActive(index, current){
@@ -123,7 +123,7 @@ export default function(){
                             <img src={internetMade} alt="im" />
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non id vestibulum, fames.
+                            We are a team of young creatives from diverse backgrounds, who grew up on the Internet.
                         </p>
                     </div>
                 </div>
